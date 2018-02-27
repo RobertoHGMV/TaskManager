@@ -1,17 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Shared", "TaskManager.Shared\TaskManager.Shared.csproj", "{283D6C53-6C0F-4A0C-AA6C-D0C5F5C6AE78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksManager.Domain", "TasksManager.Domain\TasksManager.Domain.csproj", "{521CC60E-C32A-4B68-9602-6E1B00209277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Domain", "TaskManager.Domain\TaskManager.Domain.csproj", "{521CC60E-C32A-4B68-9602-6E1B00209277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.Infra", "Task.Infra\Task.Infra.csproj", "{D507743D-457E-4942-8FC6-A4F6564B4A69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Infra", "TaskManager.Infra\TaskManager.Infra.csproj", "{D507743D-457E-4942-8FC6-A4F6564B4A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyResolver", "DependencyResolver\DependencyResolver.csproj", "{5B23819E-73D1-484A-95D6-C77333EC210C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserTask.Web", "UserTask.Web\UserTask.Web.csproj", "{202CF42B-D239-40FF-9FE2-6F186361DA3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Web", "TaskManager.Web\TaskManager.Web.csproj", "{202CF42B-D239-40FF-9FE2-6F186361DA3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{D507743D-457E-4942-8FC6-A4F6564B4A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D507743D-457E-4942-8FC6-A4F6564B4A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D507743D-457E-4942-8FC6-A4F6564B4A69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B23819E-73D1-484A-95D6-C77333EC210C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B23819E-73D1-484A-95D6-C77333EC210C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B23819E-73D1-484A-95D6-C77333EC210C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B23819E-73D1-484A-95D6-C77333EC210C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{202CF42B-D239-40FF-9FE2-6F186361DA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{202CF42B-D239-40FF-9FE2-6F186361DA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202CF42B-D239-40FF-9FE2-6F186361DA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
